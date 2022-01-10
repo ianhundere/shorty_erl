@@ -35,8 +35,12 @@ shorten url:
 fetch full url from shortened url:
 `python3 shorty_erl.py -u <short_url> -us`
 
-##### Troubleshooting
+##### troubleshooting
 
 upgrade pip with `pip3 install -U pip` if the following error occurs:
 
 `Directory '.' is not installable. File 'setup.py' not found.`
+
+### todo
+
+-   [ ] implement hashing algo
