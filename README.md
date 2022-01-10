@@ -2,7 +2,7 @@
 
 shorten urls or fetch full urls.
 
-requires the [requests](http://docs.python-requests.org/) library. should work on python 3.6+.
+requires the [requests](http://docs.python-requests.org/) library and relies on [shrtco](http://shrtco.de/). should work on python 3.6+.
 
 ### install
 
