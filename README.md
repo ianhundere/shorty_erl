@@ -1,6 +1,6 @@
 # shorty_erl
 
-Shorten URLs or fetch full URLs.
+shorten urls or fetch full urls.
 
 requires the [requests](http://docs.python-requests.org/) library. should work on python 3.6+.
 
@@ -29,14 +29,14 @@ optional arguments:
   -v, --version     show program's version number and exit
 ```
 
-shorten URL:
+shorten url:
 `python3 shorty_erl.py -u <full_url> -s`
 
-Get last 3 GitHub pull requests:
+fetch full url from shortened url:
 `python3 shorty_erl.py -u <short_url> -us`
 
 ##### Troubleshooting
 
-Upgrade pip with `pip3 install -U pip` if the following error occurs:
+upgrade pip with `pip3 install -U pip` if the following error occurs:
 
 `Directory '.' is not installable. File 'setup.py' not found.`
