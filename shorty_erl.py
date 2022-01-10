@@ -6,8 +6,8 @@ import sys
 __version__ = '0.1.0'
 
 # disables default help
-parser = argparse.ArgumentParser(prog='shorty_url.py', description='Shorten yo URL.',
-                                 usage='%(prog)s [-h] [-s SHORTEN] [-u UNSHORTEN]', add_help=False)
+parser = argparse.ArgumentParser(prog='shorty_erl.py', description='Shorten URLs or fetch full URLs.',
+                                 usage='%(prog)s [-h] [-u URL] [-s SHORTEN] [-us UNSHORTEN]', add_help=False)
 required = parser.add_argument_group('required arguments')
 one_or_both = parser.add_argument_group(
     'possible actions (at least one is required)')
